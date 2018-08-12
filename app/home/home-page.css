@@ -1,0 +1,13 @@
+FlexboxLayout {
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url('~/img/trolla_lisa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+StackLayout {
+    padding: 10 10;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #ffffff);
+}

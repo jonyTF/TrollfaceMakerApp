@@ -1,0 +1,11 @@
+<Page navigatingTo="onNavigatingTo" class="page"
+    xmlns="http://schemas.nativescript.org/tns.xsd" >
+    <ActionBar title="Results">
+    </ActionBar>
+
+    <StackLayout>
+        <Label text="{{ url }}" />
+        <Image src="{{ url }}" />
+
+    </StackLayout>
+</Page>

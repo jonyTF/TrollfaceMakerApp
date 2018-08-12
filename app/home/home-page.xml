@@ -1,0 +1,17 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar title="Trollface Maker">
+    </ActionBar>
+
+    <FlexboxLayout id="mainLayout">
+        <StackLayout>
+            <!-- Add your page content here -->
+            <Image src="~/img/logo.png" />
+            <Button text="Take a Photo" class="btn btn-primary" tap="takePhoto" />
+            <Button text="Choose a Photo" class="btn btn-primary" tap="choosePhoto" />
+            <Button text="Gallery" class="btn btn-primary" tap="openGallery" />
+        </StackLayout>
+    </FlexboxLayout>
+</Page>
